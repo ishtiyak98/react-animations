@@ -1,0 +1,60 @@
+.hero-section{
+    @apply lg:h-[100vh] flex justify-center items-center py-12;
+    background-image: url("../../assets/asset 46.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-grid{
+    @apply grid grid-cols-1 items-center lg:grid-cols-2 gap-y-20 gap-x-5 
+}
+
+.chef-area{
+    @apply flex items-center justify-center lg:justify-start space-x-4
+}
+
+.hero-title{
+    @apply text-[38px] lg:text-[60px] font-black text-[#2A435D]
+           leading-[50px] lg:leading-[72px] uppercase text-center 
+           lg:text-left
+}
+
+.hero-btn-wrapper{
+    @apply flex items-center justify-center lg:justify-start 
+           space-x-12
+}
+
+.hero-btn{
+    @apply px-10 py-3 text-[16px] lg:text-[20px] font-medium 
+         bg-[#006633] text-white rounded 
+}
+
+.hero-btn-side-text{
+    @apply text-[20px] lg:text-[24px] text-[#2A435D] font-bold
+}
+
+.hero-img-wrapper{
+    @apply flex justify-center
+}
+
+.hero-img{
+   @apply w-[330px] lg:w-[460px]
+}
+
+.leaf-wrapper{
+    @apply w-[145px] lg:w-[160px]
+}
+
+.leaf-1{
+    @apply absolute right-[15%] lg:top-[28%]
+}
+
+.leaf-2{
+    @apply absolute top-[75%] lg:top-[58%] left-[10%] lg:left-[53%]
+}
+
+.beerCan{
+    @apply absolute left-[12%] lg:left-[55%] top-[58%] lg:top-[38%];
+    filter: drop-shadow(10px 10px 10px #a2a2a2);
+}

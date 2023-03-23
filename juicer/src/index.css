@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+body{
+  @apply text-[#2A435D]
+}
+
+.caveat-font{
+  font-family: 'Caveat', cursive;
+}
+
+.poppins{
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-green {
+  @apply text-[#006633]
+}
